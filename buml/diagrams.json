@@ -1,0 +1,3079 @@
+{
+  "project": {
+    "id": "project_1792591735761_8848zuski",
+    "type": "Project",
+    "schemaVersion": 5,
+    "name": "Class_Diagram",
+    "description": "",
+    "owner": "",
+    "createdAt": "2026-10-21T14:08:55.762Z",
+    "currentDiagramType": "GUINoCodeDiagram",
+    "currentDiagramIndices": {
+      "ClassDiagram": 0,
+      "ObjectDiagram": 0,
+      "StateMachineDiagram": 0,
+      "AgentDiagram": 0,
+      "ComponentDiagram": 0,
+      "DeploymentDiagram": 0,
+      "UserDiagram": 0,
+      "GUINoCodeDiagram": 0,
+      "QuantumCircuitDiagram": 0,
+      "NNDiagram": 0,
+      "BPMN": 0
+    },
+    "diagrams": {
+      "ClassDiagram": [
+        {
+          "id": "c7df273f-b187-4ffa-b8b4-1a56901ef899",
+          "title": "Class Diagram",
+          "model": {
+            "version": "3.0.0",
+            "type": "ClassDiagram",
+            "size": {
+              "width": 600.0000000000001,
+              "height": 887.5555572509766
+            },
+            "interactive": {
+              "elements": {},
+              "relationships": {}
+            },
+            "elements": {
+              "class_n15hm1z8h_mvi6r1pj_e3u": {
+                "id": "class_n15hm1z8h_mvi6r1pj_e3u",
+                "name": "Employee",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": 20.000000000000057,
+                  "y": 175,
+                  "width": 220,
+                  "height": 190
+                },
+                "attributes": [
+                  "attr_exwg48q45_mvi6r1pj_vec",
+                  "attr_7z41qudkx_mvi6r1pj_wvp",
+                  "attr_ina3x6f2m_mvi6r1pj_h0a",
+                  "attr_fdkpzh7jv_mvi6r1pj_8te",
+                  "attr_9zcgi783d_mvi6r1pj_5dg"
+                ],
+                "methods": [
+                  "method_ftofkt5od_mvi6r1pj_hiz"
+                ]
+              },
+              "attr_exwg48q45_mvi6r1pj_vec": {
+                "id": "attr_exwg48q45_mvi6r1pj_vec",
+                "name": "id",
+                "type": "ClassAttribute",
+                "owner": "class_n15hm1z8h_mvi6r1pj_e3u",
+                "bounds": {
+                  "x": 20.500000000000057,
+                  "y": 215.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "int",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_7z41qudkx_mvi6r1pj_wvp": {
+                "id": "attr_7z41qudkx_mvi6r1pj_wvp",
+                "name": "name",
+                "type": "ClassAttribute",
+                "owner": "class_n15hm1z8h_mvi6r1pj_e3u",
+                "bounds": {
+                  "x": 20.500000000000057,
+                  "y": 240.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_ina3x6f2m_mvi6r1pj_h0a": {
+                "id": "attr_ina3x6f2m_mvi6r1pj_h0a",
+                "name": "email",
+                "type": "ClassAttribute",
+                "owner": "class_n15hm1z8h_mvi6r1pj_e3u",
+                "bounds": {
+                  "x": 20.500000000000057,
+                  "y": 265.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_fdkpzh7jv_mvi6r1pj_8te": {
+                "id": "attr_fdkpzh7jv_mvi6r1pj_8te",
+                "name": "hiredDate",
+                "type": "ClassAttribute",
+                "owner": "class_n15hm1z8h_mvi6r1pj_e3u",
+                "bounds": {
+                  "x": 20.500000000000057,
+                  "y": 290.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "date",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_9zcgi783d_mvi6r1pj_5dg": {
+                "id": "attr_9zcgi783d_mvi6r1pj_5dg",
+                "name": "position",
+                "type": "ClassAttribute",
+                "owner": "class_n15hm1z8h_mvi6r1pj_e3u",
+                "bounds": {
+                  "x": 20.500000000000057,
+                  "y": 315.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "method_ftofkt5od_mvi6r1pj_hiz": {
+                "id": "method_ftofkt5od_mvi6r1pj_hiz",
+                "name": "askForTimeOff(startDate: date, endDate: date, reason: str)",
+                "type": "ClassMethod",
+                "owner": "class_n15hm1z8h_mvi6r1pj_e3u",
+                "bounds": {
+                  "x": 20.500000000000057,
+                  "y": 340.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "TimeOffRequest",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "class_qgimrqokz_mvi6r1pk_gt9": {
+                "id": "class_qgimrqokz_mvi6r1pk_gt9",
+                "name": "Manager",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": 1.6666666666666856,
+                  "y": -45,
+                  "width": 220,
+                  "height": 90
+                },
+                "attributes": [
+                  "attr_hrgoh2uar_mvi6r1pk_gv4"
+                ],
+                "methods": [
+                  "method_7gqcajgyr_mvi6r1pk_xbs"
+                ]
+              },
+              "attr_hrgoh2uar_mvi6r1pk_gv4": {
+                "id": "attr_hrgoh2uar_mvi6r1pk_gv4",
+                "name": "department",
+                "type": "ClassAttribute",
+                "owner": "class_qgimrqokz_mvi6r1pk_gt9",
+                "bounds": {
+                  "x": 2.1666666666666856,
+                  "y": -4.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "method_7gqcajgyr_mvi6r1pk_xbs": {
+                "id": "method_7gqcajgyr_mvi6r1pk_xbs",
+                "name": "approveTimeOff(request: TimeOffRequest)",
+                "type": "ClassMethod",
+                "owner": "class_qgimrqokz_mvi6r1pk_gt9",
+                "bounds": {
+                  "x": 2.1666666666666856,
+                  "y": 20.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "bool",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "class_6q7upvz3a_mvi6r1pk_5oz": {
+                "id": "class_6q7upvz3a_mvi6r1pk_5oz",
+                "name": "TimeOffRequest",
+                "type": "Class",
+                "owner": null,
+                "bounds": {
+                  "x": 38.333333333333314,
+                  "y": -380,
+                  "width": 220,
+                  "height": 215
+                },
+                "attributes": [
+                  "attr_5yd0zy6gi_mvi6r1pk_bqx",
+                  "attr_yjvnl46nz_mvi6r1pk_jm5",
+                  "attr_mi4rd6ukd_mvi6r1pk_t07",
+                  "attr_2ub28nqgp_mvi6r1pk_b2g",
+                  "attr_pc7vl2yfk_mvi6r1pk_wtr",
+                  "attr_zqw3oc22i_mvi6r1pk_2r3",
+                  "attr_3g84d0jhp_mvi6r1pk_6ag"
+                ],
+                "methods": []
+              },
+              "attr_5yd0zy6gi_mvi6r1pk_bqx": {
+                "id": "attr_5yd0zy6gi_mvi6r1pk_bqx",
+                "name": "id",
+                "type": "ClassAttribute",
+                "owner": "class_6q7upvz3a_mvi6r1pk_5oz",
+                "bounds": {
+                  "x": 38.833333333333314,
+                  "y": -339.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "int",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_yjvnl46nz_mvi6r1pk_jm5": {
+                "id": "attr_yjvnl46nz_mvi6r1pk_jm5",
+                "name": "startDate",
+                "type": "ClassAttribute",
+                "owner": "class_6q7upvz3a_mvi6r1pk_5oz",
+                "bounds": {
+                  "x": 38.833333333333314,
+                  "y": -314.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "date",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_mi4rd6ukd_mvi6r1pk_t07": {
+                "id": "attr_mi4rd6ukd_mvi6r1pk_t07",
+                "name": "endDate",
+                "type": "ClassAttribute",
+                "owner": "class_6q7upvz3a_mvi6r1pk_5oz",
+                "bounds": {
+                  "x": 38.833333333333314,
+                  "y": -289.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "date",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_2ub28nqgp_mvi6r1pk_b2g": {
+                "id": "attr_2ub28nqgp_mvi6r1pk_b2g",
+                "name": "reason",
+                "type": "ClassAttribute",
+                "owner": "class_6q7upvz3a_mvi6r1pk_5oz",
+                "bounds": {
+                  "x": 38.833333333333314,
+                  "y": -264.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_pc7vl2yfk_mvi6r1pk_wtr": {
+                "id": "attr_pc7vl2yfk_mvi6r1pk_wtr",
+                "name": "submittedAt",
+                "type": "ClassAttribute",
+                "owner": "class_6q7upvz3a_mvi6r1pk_5oz",
+                "bounds": {
+                  "x": 38.833333333333314,
+                  "y": -239.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_zqw3oc22i_mvi6r1pk_2r3": {
+                "id": "attr_zqw3oc22i_mvi6r1pk_2r3",
+                "name": "approvedAt",
+                "type": "ClassAttribute",
+                "owner": "class_6q7upvz3a_mvi6r1pk_5oz",
+                "bounds": {
+                  "x": 38.833333333333314,
+                  "y": -214.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "datetime",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": true,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_3g84d0jhp_mvi6r1pk_6ag": {
+                "id": "attr_3g84d0jhp_mvi6r1pk_6ag",
+                "name": "status",
+                "type": "ClassAttribute",
+                "owner": "class_6q7upvz3a_mvi6r1pk_5oz",
+                "bounds": {
+                  "x": 38.833333333333314,
+                  "y": -189.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "TimeOffStatus",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "class_pt1ag2bs1_mvi6r1pk_pz5": {
+                "id": "class_pt1ag2bs1_mvi6r1pk_pz5",
+                "name": "TimeOffStatus",
+                "type": "Enumeration",
+                "owner": null,
+                "bounds": {
+                  "x": -238.33333333333331,
+                  "y": -380,
+                  "width": 220,
+                  "height": 150
+                },
+                "attributes": [
+                  "attr_9bx1r01e4_mvi6r1pk_a5u",
+                  "attr_t74eu5r4h_mvi6r1pk_0f8",
+                  "attr_aqd6tfi2a_mvi6r1pk_zf3",
+                  "attr_fws4lqpzg_mvi6r1pk_uya"
+                ],
+                "methods": []
+              },
+              "attr_9bx1r01e4_mvi6r1pk_a5u": {
+                "id": "attr_9bx1r01e4_mvi6r1pk_a5u",
+                "name": "PENDING",
+                "type": "ClassAttribute",
+                "owner": "class_pt1ag2bs1_mvi6r1pk_pz5",
+                "bounds": {
+                  "x": -237.83333333333331,
+                  "y": -329.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_t74eu5r4h_mvi6r1pk_0f8": {
+                "id": "attr_t74eu5r4h_mvi6r1pk_0f8",
+                "name": "APPROVED",
+                "type": "ClassAttribute",
+                "owner": "class_pt1ag2bs1_mvi6r1pk_pz5",
+                "bounds": {
+                  "x": -237.83333333333331,
+                  "y": -304.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_aqd6tfi2a_mvi6r1pk_zf3": {
+                "id": "attr_aqd6tfi2a_mvi6r1pk_zf3",
+                "name": "REJECTED",
+                "type": "ClassAttribute",
+                "owner": "class_pt1ag2bs1_mvi6r1pk_pz5",
+                "bounds": {
+                  "x": -237.83333333333331,
+                  "y": -279.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              },
+              "attr_fws4lqpzg_mvi6r1pk_uya": {
+                "id": "attr_fws4lqpzg_mvi6r1pk_uya",
+                "name": "CANCELLED",
+                "type": "ClassAttribute",
+                "owner": "class_pt1ag2bs1_mvi6r1pk_pz5",
+                "bounds": {
+                  "x": -237.83333333333331,
+                  "y": -254.5,
+                  "width": 219,
+                  "height": 25
+                },
+                "code": "",
+                "visibility": "public",
+                "attributeType": "str",
+                "implementationType": "none",
+                "stateMachineId": "",
+                "quantumCircuitId": "",
+                "neuralNetworkId": "",
+                "isOptional": false,
+                "isDerived": false,
+                "isId": false,
+                "isExternalId": false
+              }
+            },
+            "relationships": {
+              "rel_626zzzoww_mvi6r1pk_s20": {
+                "id": "rel_626zzzoww_mvi6r1pk_s20",
+                "name": "",
+                "type": "ClassInheritance",
+                "owner": null,
+                "bounds": {
+                  "x": 106.66666666666669,
+                  "y": -85,
+                  "width": 173.33333333333337,
+                  "height": 508.7777786254883
+                },
+                "path": [
+                  {
+                    "x": 5,
+                    "y": 40
+                  },
+                  {
+                    "x": 5,
+                    "y": 0
+                  },
+                  {
+                    "x": 173.33333333333337,
+                    "y": 0
+                  },
+                  {
+                    "x": 173.33333333333337,
+                    "y": 490
+                  },
+                  {
+                    "x": 23.33333333333337,
+                    "y": 490
+                  },
+                  {
+                    "x": 23.33333333333337,
+                    "y": 450
+                  }
+                ],
+                "source": {
+                  "direction": "Up",
+                  "element": "class_qgimrqokz_mvi6r1pk_gt9",
+                  "multiplicity": "1",
+                  "role": "",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "target": {
+                  "direction": "Down",
+                  "element": "class_n15hm1z8h_mvi6r1pj_e3u",
+                  "multiplicity": "1",
+                  "role": "",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "isManuallyLayouted": false
+              },
+              "rel_xx7m0kfcv_mvi6r1pk_yt5": {
+                "id": "rel_xx7m0kfcv_mvi6r1pk_yt5",
+                "name": "manager",
+                "type": "ClassBidirectional",
+                "owner": null,
+                "bounds": {
+                  "x": -38.333333333333314,
+                  "y": -85,
+                  "width": 197.36111195882165,
+                  "height": 490
+                },
+                "path": [
+                  {
+                    "x": 168.33333333333337,
+                    "y": 450
+                  },
+                  {
+                    "x": 168.33333333333337,
+                    "y": 490
+                  },
+                  {
+                    "x": 0,
+                    "y": 490
+                  },
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 150,
+                    "y": 0
+                  },
+                  {
+                    "x": 150,
+                    "y": 40
+                  }
+                ],
+                "source": {
+                  "direction": "Down",
+                  "element": "class_n15hm1z8h_mvi6r1pj_e3u",
+                  "multiplicity": "0..*",
+                  "role": "teamMembers",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "target": {
+                  "direction": "Up",
+                  "element": "class_qgimrqokz_mvi6r1pk_gt9",
+                  "multiplicity": "0..1",
+                  "role": "manager",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "isManuallyLayouted": false
+              },
+              "rel_6b47si76e_mvi6r1pk_ejh": {
+                "id": "rel_6b47si76e_mvi6r1pk_ejh",
+                "name": "requester",
+                "type": "ClassBidirectional",
+                "owner": null,
+                "bounds": {
+                  "x": -19.999999999999943,
+                  "y": -420,
+                  "width": 197.36111195882154,
+                  "height": 825
+                },
+                "path": [
+                  {
+                    "x": 168.33333333333326,
+                    "y": 40
+                  },
+                  {
+                    "x": 168.33333333333326,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 825
+                  },
+                  {
+                    "x": 150,
+                    "y": 825
+                  },
+                  {
+                    "x": 150,
+                    "y": 785
+                  }
+                ],
+                "source": {
+                  "direction": "Up",
+                  "element": "class_6q7upvz3a_mvi6r1pk_5oz",
+                  "multiplicity": "0..*",
+                  "role": "timeOffRequests",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "target": {
+                  "direction": "Down",
+                  "element": "class_n15hm1z8h_mvi6r1pj_e3u",
+                  "multiplicity": "1",
+                  "role": "requester",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "isManuallyLayouted": false
+              },
+              "rel_8y67t0lw2_mvi6r1pk_02y": {
+                "id": "rel_8y67t0lw2_mvi6r1pk_02y",
+                "name": "approvedBy",
+                "type": "ClassBidirectional",
+                "owner": null,
+                "bounds": {
+                  "x": -38.333333333333314,
+                  "y": -420,
+                  "width": 215.6944452921549,
+                  "height": 505
+                },
+                "path": [
+                  {
+                    "x": 186.66666666666663,
+                    "y": 40
+                  },
+                  {
+                    "x": 186.66666666666663,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "x": 0,
+                    "y": 505
+                  },
+                  {
+                    "x": 150,
+                    "y": 505
+                  },
+                  {
+                    "x": 150,
+                    "y": 465
+                  }
+                ],
+                "source": {
+                  "direction": "Up",
+                  "element": "class_6q7upvz3a_mvi6r1pk_5oz",
+                  "multiplicity": "0..*",
+                  "role": "approvedRequests",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "target": {
+                  "direction": "Down",
+                  "element": "class_qgimrqokz_mvi6r1pk_gt9",
+                  "multiplicity": "0..1",
+                  "role": "approvedBy",
+                  "navigable": true,
+                  "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 0,
+                    "height": 0
+                  }
+                },
+                "isManuallyLayouted": false
+              }
+            },
+            "assessments": {}
+          },
+          "lastUpdate": "2026-10-21T14:08:59.848Z"
+        }
+      ],
+      "GUINoCodeDiagram": [
+        {
+          "id": "c87d2d78-666a-496a-9a11-281e1650c228",
+          "title": "GUI Diagram",
+          "model": {
+            "pages": [
+              {
+                "name": "Employee",
+                "frames": [
+                  {
+                    "component": {
+                      "type": "wrapper",
+                      "stylable": [
+                        "background",
+                        "background-color",
+                        "background-image",
+                        "background-repeat",
+                        "background-attachment",
+                        "background-position",
+                        "background-size"
+                      ],
+                      "components": [
+                        {
+                          "attributes": {
+                            "id": "iy6o8"
+                          },
+                          "components": [
+                            {
+                              "tagName": "nav",
+                              "attributes": {
+                                "id": "iriwh"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h2",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "in9dd"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "BESSER"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "iro9l"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/employee",
+                                        "id": "iuj7j"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Employee"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/manager",
+                                        "id": "i5qv5"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Manager"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/timeoffrequest",
+                                        "id": "i91sg"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "TimeOffRequest"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "izilf"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "\u00a9 2026 BESSER. All rights reserved."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "main",
+                              "attributes": {
+                                "id": "inu2z"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h1",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "ixhis"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Employee"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tagName": "p",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "ie5ry"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Manage Employee data"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "table",
+                                  "style": "",
+                                  "attributes": {
+                                    "chart-color": "#2c3e50",
+                                    "chart-title": "Employee List",
+                                    "data-source": "class_n15hm1z8h_mvi6r1pj_e3u",
+                                    "show-header": "true",
+                                    "striped-rows": "false",
+                                    "show-pagination": "true",
+                                    "rows-per-page": "5",
+                                    "action-buttons": "true",
+                                    "columns": [
+                                      {
+                                        "field": "id",
+                                        "label": "Id",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "name",
+                                        "label": "Name",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "email",
+                                        "label": "Email",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "hiredDate",
+                                        "label": "HiredDate",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "position",
+                                        "label": "Position",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "manager",
+                                        "label": "Manager",
+                                        "columnType": "lookup",
+                                        "lookupEntity": "class_qgimrqokz_mvi6r1pk_gt9",
+                                        "lookupField": "name",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "timeOffRequests",
+                                        "label": "TimeOffRequests",
+                                        "columnType": "lookup",
+                                        "lookupEntity": "class_6q7upvz3a_mvi6r1pk_5oz",
+                                        "lookupField": "reason",
+                                        "_expanded": false
+                                      }
+                                    ],
+                                    "id": "table-employee-0",
+                                    "filter": ""
+                                  },
+                                  "chart-title": "Employee List",
+                                  "data-source": "class_n15hm1z8h_mvi6r1pj_e3u",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "action-buttons": "true",
+                                  "rows-per-page": "5",
+                                  "filter": "",
+                                  "columns": [
+                                    {
+                                      "field": "id",
+                                      "label": "Id",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "name",
+                                      "label": "Name",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "email",
+                                      "label": "Email",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "hiredDate",
+                                      "label": "HiredDate",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "position",
+                                      "label": "Position",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "manager",
+                                      "label": "Manager",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_qgimrqokz_mvi6r1pk_gt9",
+                                      "lookupField": "name",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "timeOffRequests",
+                                      "label": "TimeOffRequests",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_6q7upvz3a_mvi6r1pk_5oz",
+                                      "lookupField": "reason",
+                                      "_expanded": false
+                                    }
+                                  ],
+                                  "components": [
+                                    {
+                                      "type": "tbody",
+                                      "draggable": [
+                                        "table"
+                                      ],
+                                      "droppable": [
+                                        "tr"
+                                      ],
+                                      "components": [
+                                        {
+                                          "type": "row",
+                                          "draggable": [
+                                            "thead",
+                                            "tbody",
+                                            "tfoot"
+                                          ],
+                                          "droppable": [
+                                            "th",
+                                            "td"
+                                          ],
+                                          "classes": [
+                                            "row"
+                                          ],
+                                          "components": [
+                                            {
+                                              "type": "cell",
+                                              "draggable": [
+                                                "tr"
+                                              ],
+                                              "classes": [
+                                                "cell"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "chart-color": "#2c3e50"
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "i8jn5"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "action-button",
+                                      "content": "askForTimeOff",
+                                      "style": "",
+                                      "classes": [
+                                        "action-button-component"
+                                      ],
+                                      "attributes": {
+                                        "type": "button",
+                                        "data-button-label": "askForTimeOff",
+                                        "data-action-type": "run-method",
+                                        "data-method-class": "class_n15hm1z8h_mvi6r1pj_e3u",
+                                        "data-method": "method_ftofkt5od_mvi6r1pj_hiz",
+                                        "data-instance-source": "table-employee-0",
+                                        "id": "i1rcs",
+                                        "data-confirmation": "false",
+                                        "data-confirmation-message": "Are you sure?",
+                                        "button-label": "askForTimeOff",
+                                        "data-method-name": "method_ftofkt5od_mvi6r1pj_hiz"
+                                      },
+                                      "button-label": "askForTimeOff",
+                                      "action-type": "run-method",
+                                      "method-class": "class_n15hm1z8h_mvi6r1pj_e3u",
+                                      "method": "method_ftofkt5od_mvi6r1pj_hiz",
+                                      "instance-source": "table-employee-0",
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "askForTimeOff"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "head": {
+                        "type": "head"
+                      },
+                      "docEl": {
+                        "tagName": "html"
+                      }
+                    },
+                    "id": "hhXWwhseiJYzWvxr"
+                  }
+                ],
+                "id": "page-employee-0",
+                "route_path": "/employee"
+              },
+              {
+                "name": "Manager",
+                "frames": [
+                  {
+                    "component": {
+                      "type": "wrapper",
+                      "stylable": [
+                        "background",
+                        "background-color",
+                        "background-image",
+                        "background-repeat",
+                        "background-attachment",
+                        "background-position",
+                        "background-size"
+                      ],
+                      "components": [
+                        {
+                          "attributes": {
+                            "id": "i1uuh"
+                          },
+                          "components": [
+                            {
+                              "tagName": "nav",
+                              "attributes": {
+                                "id": "isohg"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h2",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "i0ohj"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "BESSER"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "iiohk"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/employee",
+                                        "id": "iez01"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Employee"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/manager",
+                                        "id": "i371y"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Manager"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/timeoffrequest",
+                                        "id": "ib2dh"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "TimeOffRequest"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "i5uvv"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "\u00a9 2026 BESSER. All rights reserved."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "main",
+                              "attributes": {
+                                "id": "iszbi"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h1",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "i8lvb"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Manager"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tagName": "p",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "imtce"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Manage Manager data"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "table",
+                                  "style": "",
+                                  "attributes": {
+                                    "chart-color": "#2c3e50",
+                                    "chart-title": "Manager List",
+                                    "data-source": "class_qgimrqokz_mvi6r1pk_gt9",
+                                    "show-header": "true",
+                                    "striped-rows": "false",
+                                    "show-pagination": "true",
+                                    "rows-per-page": "5",
+                                    "action-buttons": "true",
+                                    "columns": [
+                                      {
+                                        "field": "department",
+                                        "label": "Department",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "id",
+                                        "label": "Id",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "name",
+                                        "label": "Name",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "email",
+                                        "label": "Email",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "hiredDate",
+                                        "label": "HiredDate",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "position",
+                                        "label": "Position",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "teamMembers",
+                                        "label": "TeamMembers",
+                                        "columnType": "lookup",
+                                        "lookupEntity": "class_n15hm1z8h_mvi6r1pj_e3u",
+                                        "lookupField": "name",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "approvedRequests",
+                                        "label": "ApprovedRequests",
+                                        "columnType": "lookup",
+                                        "lookupEntity": "class_6q7upvz3a_mvi6r1pk_5oz",
+                                        "lookupField": "reason",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "manager",
+                                        "label": "Manager",
+                                        "columnType": "lookup",
+                                        "lookupEntity": "class_qgimrqokz_mvi6r1pk_gt9",
+                                        "lookupField": "name",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "timeOffRequests",
+                                        "label": "TimeOffRequests",
+                                        "columnType": "lookup",
+                                        "lookupEntity": "class_6q7upvz3a_mvi6r1pk_5oz",
+                                        "lookupField": "reason",
+                                        "_expanded": false
+                                      }
+                                    ],
+                                    "id": "table-manager-1",
+                                    "filter": ""
+                                  },
+                                  "chart-title": "Manager List",
+                                  "data-source": "class_qgimrqokz_mvi6r1pk_gt9",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "action-buttons": "true",
+                                  "rows-per-page": "5",
+                                  "filter": "",
+                                  "columns": [
+                                    {
+                                      "field": "department",
+                                      "label": "Department",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "id",
+                                      "label": "Id",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "name",
+                                      "label": "Name",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "email",
+                                      "label": "Email",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "hiredDate",
+                                      "label": "HiredDate",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "position",
+                                      "label": "Position",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "teamMembers",
+                                      "label": "TeamMembers",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_n15hm1z8h_mvi6r1pj_e3u",
+                                      "lookupField": "name",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "approvedRequests",
+                                      "label": "ApprovedRequests",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_6q7upvz3a_mvi6r1pk_5oz",
+                                      "lookupField": "reason",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "manager",
+                                      "label": "Manager",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_qgimrqokz_mvi6r1pk_gt9",
+                                      "lookupField": "name",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "timeOffRequests",
+                                      "label": "TimeOffRequests",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_6q7upvz3a_mvi6r1pk_5oz",
+                                      "lookupField": "reason",
+                                      "_expanded": false
+                                    }
+                                  ],
+                                  "components": [
+                                    {
+                                      "type": "tbody",
+                                      "draggable": [
+                                        "table"
+                                      ],
+                                      "droppable": [
+                                        "tr"
+                                      ],
+                                      "components": [
+                                        {
+                                          "type": "row",
+                                          "draggable": [
+                                            "thead",
+                                            "tbody",
+                                            "tfoot"
+                                          ],
+                                          "droppable": [
+                                            "th",
+                                            "td"
+                                          ],
+                                          "classes": [
+                                            "row"
+                                          ],
+                                          "components": [
+                                            {
+                                              "type": "cell",
+                                              "draggable": [
+                                                "tr"
+                                              ],
+                                              "classes": [
+                                                "cell"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "chart-color": "#2c3e50"
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "iegnw"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "action-button",
+                                      "style": "",
+                                      "classes": [
+                                        "action-button-component"
+                                      ],
+                                      "attributes": {
+                                        "type": "button",
+                                        "data-button-label": "approveTimeOff",
+                                        "data-action-type": "run-method",
+                                        "data-method-class": "class_qgimrqokz_mvi6r1pk_gt9",
+                                        "data-method": "method_7gqcajgyr_mvi6r1pk_xbs",
+                                        "data-instance-source": "table-manager-1",
+                                        "id": "ivu5p"
+                                      },
+                                      "button-label": "approveTimeOff",
+                                      "action-type": "run-method",
+                                      "method-class": "class_qgimrqokz_mvi6r1pk_gt9",
+                                      "method": "method_7gqcajgyr_mvi6r1pk_xbs",
+                                      "instance-source": "table-manager-1",
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "approveTimeOff"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "head": {
+                        "type": "head"
+                      },
+                      "docEl": {
+                        "tagName": "html"
+                      }
+                    },
+                    "id": "FhO71UWE9L51YaL3"
+                  }
+                ],
+                "id": "page-manager-1",
+                "route_path": "/manager"
+              },
+              {
+                "name": "TimeOffRequest",
+                "frames": [
+                  {
+                    "component": {
+                      "type": "wrapper",
+                      "stylable": [
+                        "background",
+                        "background-color",
+                        "background-image",
+                        "background-repeat",
+                        "background-attachment",
+                        "background-position",
+                        "background-size"
+                      ],
+                      "components": [
+                        {
+                          "attributes": {
+                            "id": "iacwl"
+                          },
+                          "components": [
+                            {
+                              "tagName": "nav",
+                              "attributes": {
+                                "id": "iz8ho"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h2",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "iqt0z"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "BESSER"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "attributes": {
+                                    "id": "iqtlu"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/employee",
+                                        "id": "ivn07"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Employee"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/manager",
+                                        "id": "it2ge"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "Manager"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "link",
+                                      "attributes": {
+                                        "href": "/timeoffrequest",
+                                        "id": "i7lpk"
+                                      },
+                                      "components": [
+                                        {
+                                          "type": "textnode",
+                                          "content": "TimeOffRequest"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "id9tk"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "\u00a9 2026 BESSER. All rights reserved."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tagName": "main",
+                              "attributes": {
+                                "id": "iiz7j"
+                              },
+                              "components": [
+                                {
+                                  "tagName": "h1",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "id4fz"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "TimeOffRequest"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tagName": "p",
+                                  "type": "text",
+                                  "attributes": {
+                                    "id": "i4wca"
+                                  },
+                                  "components": [
+                                    {
+                                      "type": "textnode",
+                                      "content": "Manage TimeOffRequest data"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "table",
+                                  "style": "",
+                                  "classes": [
+                                    "has-data-binding"
+                                  ],
+                                  "attributes": {
+                                    "chart-color": "#2c3e50",
+                                    "chart-title": "TimeOffRequest List",
+                                    "data-source": "class_6q7upvz3a_mvi6r1pk_5oz",
+                                    "show-header": "true",
+                                    "striped-rows": "false",
+                                    "show-pagination": "true",
+                                    "rows-per-page": "5",
+                                    "action-buttons": "true",
+                                    "columns": [
+                                      {
+                                        "field": "id",
+                                        "label": "Id",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "startDate",
+                                        "label": "StartDate",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "endDate",
+                                        "label": "EndDate",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "reason",
+                                        "label": "Reason",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "submittedAt",
+                                        "label": "SubmittedAt",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "approvedAt",
+                                        "label": "ApprovedAt",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "status",
+                                        "label": "Status",
+                                        "columnType": "field",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "requester",
+                                        "label": "Requester",
+                                        "columnType": "lookup",
+                                        "lookupEntity": "class_n15hm1z8h_mvi6r1pj_e3u",
+                                        "lookupField": "name",
+                                        "_expanded": false
+                                      },
+                                      {
+                                        "field": "approvedBy",
+                                        "label": "ApprovedBy",
+                                        "columnType": "lookup",
+                                        "lookupEntity": "class_qgimrqokz_mvi6r1pk_gt9",
+                                        "lookupField": "name",
+                                        "_expanded": false
+                                      }
+                                    ],
+                                    "id": "table-timeoffrequest-2",
+                                    "filter": ""
+                                  },
+                                  "chart-title": "TimeOffRequest List",
+                                  "data-source": "class_6q7upvz3a_mvi6r1pk_5oz",
+                                  "show-header": "true",
+                                  "striped-rows": "false",
+                                  "show-pagination": "true",
+                                  "action-buttons": "true",
+                                  "rows-per-page": "5",
+                                  "filter": "",
+                                  "columns": [
+                                    {
+                                      "field": "id",
+                                      "label": "Id",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "startDate",
+                                      "label": "StartDate",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "endDate",
+                                      "label": "EndDate",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "reason",
+                                      "label": "Reason",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "submittedAt",
+                                      "label": "SubmittedAt",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "approvedAt",
+                                      "label": "ApprovedAt",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "status",
+                                      "label": "Status",
+                                      "columnType": "field",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "requester",
+                                      "label": "Requester",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_n15hm1z8h_mvi6r1pj_e3u",
+                                      "lookupField": "name",
+                                      "_expanded": false
+                                    },
+                                    {
+                                      "field": "approvedBy",
+                                      "label": "ApprovedBy",
+                                      "columnType": "lookup",
+                                      "lookupEntity": "class_qgimrqokz_mvi6r1pk_gt9",
+                                      "lookupField": "name",
+                                      "_expanded": false
+                                    }
+                                  ],
+                                  "components": [
+                                    {
+                                      "type": "tbody",
+                                      "draggable": [
+                                        "table"
+                                      ],
+                                      "droppable": [
+                                        "tr"
+                                      ],
+                                      "components": [
+                                        {
+                                          "type": "row",
+                                          "draggable": [
+                                            "thead",
+                                            "tbody",
+                                            "tfoot"
+                                          ],
+                                          "droppable": [
+                                            "th",
+                                            "td"
+                                          ],
+                                          "classes": [
+                                            "row"
+                                          ],
+                                          "components": [
+                                            {
+                                              "type": "cell",
+                                              "draggable": [
+                                                "tr"
+                                              ],
+                                              "classes": [
+                                                "cell"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "chart-color": "#2c3e50"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "head": {
+                        "type": "head"
+                      },
+                      "docEl": {
+                        "tagName": "html"
+                      }
+                    },
+                    "id": "TSY9UvrLJMSxud99"
+                  }
+                ],
+                "id": "page-timeoffrequest-2",
+                "route_path": "/timeoffrequest"
+              }
+            ],
+            "styles": [
+              {
+                "selectors": [],
+                "selectorsAdd": "*",
+                "style": {
+                  "box-sizing": "border-box"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ":root",
+                "style": {
+                  "--ds-primary": "#2563eb",
+                  "--ds-secondary": "#475569",
+                  "--ds-accent": "#0ea5e9",
+                  "--ds-surface": "#ffffff",
+                  "--ds-background": "#f8fafc",
+                  "--ds-text": "#0f172a",
+                  "--ds-muted": "#64748b",
+                  "--ds-border": "#e2e8f0",
+                  "--ds-radius": "8px",
+                  "--ds-shadow": "0 2px 8px rgba(15, 23, 42, 0.08)",
+                  "--ds-space-md": "1rem",
+                  "--ds-space-lg": "1.5rem",
+                  "--ds-font": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+                  "--ds-font-heading": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-page"
+                ],
+                "style": {
+                  "margin-top": "0px",
+                  "margin-right": "0px",
+                  "margin-bottom": "0px",
+                  "margin-left": "0px",
+                  "background-color": "rgb(248, 250, 252)",
+                  "color": "rgb(15, 23, 42)",
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "1rem",
+                  "font-weight": "400",
+                  "line-height": "1.6",
+                  "min-height": "100vh"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-container"
+                ],
+                "style": {
+                  "max-width": "1200px",
+                  "margin-top": "0px",
+                  "margin-right": "auto",
+                  "margin-bottom": "0px",
+                  "margin-left": "auto",
+                  "padding-left": "1rem",
+                  "padding-right": "1rem",
+                  "width": "100%"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-section"
+                ],
+                "style": {
+                  "padding-top": "4rem",
+                  "padding-bottom": "4rem",
+                  "padding-left": "1rem",
+                  "padding-right": "1rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-nav"
+                ],
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "justify-content": "space-between",
+                  "row-gap": "1rem",
+                  "column-gap": "1rem",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem",
+                  "padding-left": "1rem",
+                  "padding-right": "1rem",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-bottom-width": "1px",
+                  "border-bottom-style": "solid",
+                  "border-bottom-color": "rgb(226, 232, 240)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-hero"
+                ],
+                "style": {
+                  "background-image": "linear-gradient(135deg, rgb(37, 99, 235) 0%, rgb(14, 165, 233) 100%)",
+                  "background-position-x": "initial",
+                  "background-position-y": "initial",
+                  "background-size": "initial",
+                  "background-repeat": "initial",
+                  "background-attachment": "initial",
+                  "background-origin": "initial",
+                  "background-clip": "initial",
+                  "background-color": "initial",
+                  "color": "rgb(255, 255, 255)",
+                  "padding-top": "4rem",
+                  "padding-bottom": "4rem",
+                  "padding-left": "1rem",
+                  "padding-right": "1rem",
+                  "text-align": "left"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-hero .ds-heading",
+                "style": {
+                  "color": "rgb(255, 255, 255)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-heading"
+                ],
+                "style": {
+                  "margin-top": "0px",
+                  "margin-right": "0px",
+                  "margin-bottom": "0.5rem",
+                  "margin-left": "0px",
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "1.875rem",
+                  "font-weight": "650",
+                  "line-height": "1.15",
+                  "letter-spacing": "-0.02em",
+                  "color": "rgb(15, 23, 42)"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-hero h1.ds-heading, .ds-hero .ds-heading",
+                "style": {
+                  "font-size": "2.75rem",
+                  "font-weight": "750",
+                  "letter-spacing": "-0.03em",
+                  "line-height": "1.08",
+                  "max-width": "22ch"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-card"
+                ],
+                "style": {
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "padding-top": "1.5rem",
+                  "padding-right": "1.5rem",
+                  "padding-bottom": "1.5rem",
+                  "padding-left": "1.5rem",
+                  "box-shadow": "rgba(15, 23, 42, 0.05) 0px 1px 2px, rgba(15, 23, 42, 0.06) 0px 4px 16px",
+                  "transition-behavior": "normal, normal",
+                  "transition-duration": "0.2s, 0.2s",
+                  "transition-timing-function": "ease, ease",
+                  "transition-delay": "0s, 0s",
+                  "transition-property": "box-shadow, transform"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-card"
+                ],
+                "style": {
+                  "box-shadow": "rgba(15, 23, 42, 0.06) 0px 2px 4px, rgba(15, 23, 42, 0.1) 0px 12px 32px",
+                  "transform": "translateY(-1px)"
+                },
+                "state": "hover"
+              },
+              {
+                "selectors": [
+                  "ds-grid-2"
+                ],
+                "style": {
+                  "display": "grid",
+                  "grid-template-columns": "repeat(2, minmax(0px, 1fr))",
+                  "row-gap": "1.5rem",
+                  "column-gap": "1.5rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-grid-3"
+                ],
+                "style": {
+                  "display": "grid",
+                  "grid-template-columns": "repeat(3, minmax(0px, 1fr))",
+                  "row-gap": "1.5rem",
+                  "column-gap": "1.5rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-grid-2"
+                ],
+                "style": {
+                  "grid-template-columns": "1fr"
+                },
+                "mediaText": "(max-width: 768px)",
+                "atRuleType": "media"
+              },
+              {
+                "selectors": [
+                  "ds-grid-3"
+                ],
+                "style": {
+                  "grid-template-columns": "1fr"
+                },
+                "mediaText": "(max-width: 768px)",
+                "atRuleType": "media"
+              },
+              {
+                "selectors": [
+                  "ds-kpi"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "row-gap": "0.25rem",
+                  "column-gap": "0.25rem",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "padding-top": "1.5rem",
+                  "padding-right": "1.5rem",
+                  "padding-bottom": "1.5rem",
+                  "padding-left": "1.5rem",
+                  "box-shadow": "rgba(15, 23, 42, 0.05) 0px 1px 2px, rgba(15, 23, 42, 0.06) 0px 4px 16px",
+                  "transition-behavior": "normal, normal",
+                  "transition-duration": "0.2s, 0.2s",
+                  "transition-timing-function": "ease, ease",
+                  "transition-delay": "0s, 0s",
+                  "transition-property": "box-shadow, transform"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-kpi"
+                ],
+                "style": {
+                  "box-shadow": "rgba(15, 23, 42, 0.06) 0px 2px 4px, rgba(15, 23, 42, 0.1) 0px 12px 32px",
+                  "transform": "translateY(-1px)"
+                },
+                "state": "hover"
+              },
+              {
+                "selectors": [
+                  "ds-kpi-value"
+                ],
+                "style": {
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "2.75rem",
+                  "font-weight": "700",
+                  "line-height": "1.05",
+                  "letter-spacing": "-0.02em",
+                  "color": "rgb(37, 99, 235)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-kpi-label"
+                ],
+                "style": {
+                  "font-size": "0.875rem",
+                  "font-weight": "600",
+                  "letter-spacing": "0.04em",
+                  "text-transform": "uppercase",
+                  "color": "rgb(100, 116, 139)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-table-wrap"
+                ],
+                "style": {
+                  "overflow-x": "auto",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-table"
+                ],
+                "style": {
+                  "width": "100%",
+                  "border-collapse": "collapse",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "overflow-x": "hidden",
+                  "overflow-y": "hidden",
+                  "font-size": "1rem",
+                  "color": "rgb(15, 23, 42)"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-table th",
+                "style": {
+                  "text-align": "left",
+                  "padding-top": "0.75rem",
+                  "padding-right": "1rem",
+                  "padding-bottom": "0.75rem",
+                  "padding-left": "1rem",
+                  "background-color": "rgb(248, 250, 252)",
+                  "border-bottom-width": "2px",
+                  "border-bottom-style": "solid",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "font-weight": "600",
+                  "font-size": "0.8125rem",
+                  "letter-spacing": "0.02em",
+                  "text-transform": "uppercase",
+                  "color": "rgb(100, 116, 139)"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-table td",
+                "style": {
+                  "padding-top": "0.75rem",
+                  "padding-right": "1rem",
+                  "padding-bottom": "0.75rem",
+                  "padding-left": "1rem",
+                  "border-bottom-width": "1px",
+                  "border-bottom-style": "solid",
+                  "border-bottom-color": "rgb(226, 232, 240)"
+                }
+              },
+              {
+                "selectors": [],
+                "selectorsAdd": ".ds-table tbody tr:last-child td",
+                "style": {
+                  "border-bottom-width": "medium",
+                  "border-bottom-style": "none",
+                  "border-bottom-color": "currentcolor"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-btn"
+                ],
+                "style": {
+                  "display": "inline-flex",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "row-gap": "0.25rem",
+                  "column-gap": "0.25rem",
+                  "padding-top": "0.625rem",
+                  "padding-right": "1.25rem",
+                  "padding-bottom": "0.625rem",
+                  "padding-left": "1.25rem",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "background-color": "rgb(255, 255, 255)",
+                  "color": "rgb(15, 23, 42)",
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "1rem",
+                  "font-weight": "600",
+                  "text-decoration-line": "none",
+                  "text-decoration-thickness": "initial",
+                  "text-decoration-style": "initial",
+                  "text-decoration-color": "initial",
+                  "cursor": "pointer",
+                  "transition-behavior": "normal, normal, normal, normal",
+                  "transition-duration": "0.15s, 0.15s, 0.15s, 0.15s",
+                  "transition-timing-function": "ease, ease, ease, ease",
+                  "transition-delay": "0s, 0s, 0s, 0s",
+                  "transition-property": "background-color, border-color, filter, transform"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-btn"
+                ],
+                "style": {
+                  "border-top-color": "rgb(100, 116, 139)",
+                  "border-right-color": "rgb(100, 116, 139)",
+                  "border-bottom-color": "rgb(100, 116, 139)",
+                  "border-left-color": "rgb(100, 116, 139)",
+                  "background-color": "rgb(248, 250, 252)"
+                },
+                "state": "hover"
+              },
+              {
+                "selectors": [
+                  "ds-btn-primary"
+                ],
+                "style": {
+                  "background-image": "initial",
+                  "background-position-x": "initial",
+                  "background-position-y": "initial",
+                  "background-size": "initial",
+                  "background-repeat": "initial",
+                  "background-attachment": "initial",
+                  "background-origin": "initial",
+                  "background-clip": "initial",
+                  "background-color": "rgb(37, 99, 235)",
+                  "border-top-color": "rgb(37, 99, 235)",
+                  "border-right-color": "rgb(37, 99, 235)",
+                  "border-bottom-color": "rgb(37, 99, 235)",
+                  "border-left-color": "rgb(37, 99, 235)",
+                  "color": "rgb(255, 255, 255)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-btn-primary"
+                ],
+                "style": {
+                  "filter": "brightness(1.08)",
+                  "background-color": "transparent",
+                  "transform": "translateY(-1px)"
+                },
+                "state": "hover"
+              },
+              {
+                "selectors": [
+                  "ds-notice"
+                ],
+                "style": {
+                  "display": "flex",
+                  "align-items": "center",
+                  "row-gap": "0.5rem",
+                  "column-gap": "0.5rem",
+                  "padding-top": "0.5rem",
+                  "padding-right": "1rem",
+                  "padding-bottom": "0.5rem",
+                  "padding-left": "1rem",
+                  "background-color": "rgba(14, 165, 233, 0.12)",
+                  "border-left-width": "4px",
+                  "border-left-style": "solid",
+                  "border-left-color": "rgb(14, 165, 233)",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "color": "rgb(15, 23, 42)",
+                  "font-size": "1rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-badge"
+                ],
+                "style": {
+                  "display": "inline-block",
+                  "padding-top": "0.125rem",
+                  "padding-right": "0.5rem",
+                  "padding-bottom": "0.125rem",
+                  "padding-left": "0.5rem",
+                  "background-color": "rgba(14, 165, 233, 0.12)",
+                  "border-top-left-radius": "999px",
+                  "border-top-right-radius": "999px",
+                  "border-bottom-right-radius": "999px",
+                  "border-bottom-left-radius": "999px",
+                  "color": "rgb(14, 165, 233)",
+                  "font-size": "0.875rem",
+                  "font-weight": "600"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-field"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "row-gap": "0.25rem",
+                  "column-gap": "0.25rem",
+                  "margin-bottom": "1rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-label"
+                ],
+                "style": {
+                  "font-size": "0.875rem",
+                  "font-weight": "600",
+                  "color": "rgb(15, 23, 42)"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-input"
+                ],
+                "style": {
+                  "width": "100%",
+                  "padding-top": "0.5rem",
+                  "padding-right": "0.75rem",
+                  "padding-bottom": "0.5rem",
+                  "padding-left": "0.75rem",
+                  "background-color": "rgb(255, 255, 255)",
+                  "border-top-width": "1px",
+                  "border-right-width": "1px",
+                  "border-bottom-width": "1px",
+                  "border-left-width": "1px",
+                  "border-top-style": "solid",
+                  "border-right-style": "solid",
+                  "border-bottom-style": "solid",
+                  "border-left-style": "solid",
+                  "border-top-color": "rgb(226, 232, 240)",
+                  "border-right-color": "rgb(226, 232, 240)",
+                  "border-bottom-color": "rgb(226, 232, 240)",
+                  "border-left-color": "rgb(226, 232, 240)",
+                  "border-image-source": "none",
+                  "border-image-slice": "100%",
+                  "border-image-width": "1",
+                  "border-image-outset": "0",
+                  "border-image-repeat": "stretch",
+                  "border-top-left-radius": "8px",
+                  "border-top-right-radius": "8px",
+                  "border-bottom-right-radius": "8px",
+                  "border-bottom-left-radius": "8px",
+                  "color": "rgb(15, 23, 42)",
+                  "font-family": "Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+                  "font-size": "1rem"
+                }
+              },
+              {
+                "selectors": [
+                  "ds-input"
+                ],
+                "style": {
+                  "outline-color": "initial",
+                  "outline-style": "none",
+                  "outline-width": "initial",
+                  "border-top-color": "rgb(37, 99, 235)",
+                  "border-right-color": "rgb(37, 99, 235)",
+                  "border-bottom-color": "rgb(37, 99, 235)",
+                  "border-left-color": "rgb(37, 99, 235)",
+                  "box-shadow": "rgba(37, 99, 235, 0.15) 0px 0px 0px 3px"
+                },
+                "state": "focus"
+              },
+              {
+                "selectors": [
+                  "ds-footer"
+                ],
+                "style": {
+                  "background-color": "rgb(71, 85, 105)",
+                  "color": "rgb(255, 255, 255)",
+                  "padding-top": "2.5rem",
+                  "padding-right": "1rem",
+                  "padding-bottom": "2.5rem",
+                  "padding-left": "1rem",
+                  "font-size": "0.875rem"
+                }
+              },
+              {
+                "selectors": [
+                  "#in9dd"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "font-size": "24px",
+                  "margin-bottom": "30px",
+                  "font-weight": "bold"
+                }
+              },
+              {
+                "selectors": [
+                  "#iuj7j"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "rgba(255,255,255,0.2)",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#i5qv5"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#i91sg"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#iro9l"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "flex": "1"
+                }
+              },
+              {
+                "selectors": [
+                  "#izilf"
+                ],
+                "style": {
+                  "margin-top": "auto",
+                  "padding-top": "20px",
+                  "border-top": "1px solid rgba(255,255,255,0.2)",
+                  "font-size": "11px",
+                  "opacity": "0.8",
+                  "text-align": "center"
+                }
+              },
+              {
+                "selectors": [
+                  "#iriwh"
+                ],
+                "style": {
+                  "width": "250px",
+                  "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                  "color": "white",
+                  "padding": "20px",
+                  "overflow-y": "auto",
+                  "display": "flex",
+                  "flex-direction": "column"
+                }
+              },
+              {
+                "selectors": [
+                  "#ixhis"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "color": "#333",
+                  "font-size": "32px",
+                  "margin-bottom": "10px"
+                }
+              },
+              {
+                "selectors": [
+                  "#ie5ry"
+                ],
+                "style": {
+                  "color": "#666",
+                  "margin-bottom": "30px"
+                }
+              },
+              {
+                "selectors": [
+                  "#table-employee-0"
+                ],
+                "style": {
+                  "width": "100%",
+                  "min-height": "400px"
+                }
+              },
+              {
+                "selectors": [
+                  "#i1rcs"
+                ],
+                "style": {
+                  "display": "inline-flex",
+                  "align-items": "center",
+                  "padding": "6px 14px",
+                  "background": "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)",
+                  "color": "#fff",
+                  "text-decoration": "none",
+                  "border-radius": "4px",
+                  "font-size": "13px",
+                  "font-weight": "600",
+                  "letter-spacing": "0.01em",
+                  "cursor": "pointer",
+                  "border": "none",
+                  "box-shadow": "0 1px 4px rgba(37,99,235,0.10)",
+                  "transition": "background 0.2s"
+                }
+              },
+              {
+                "selectors": [
+                  "#i8jn5"
+                ],
+                "style": {
+                  "margin-top": "20px",
+                  "display": "flex",
+                  "gap": "10px",
+                  "flex-wrap": "wrap"
+                }
+              },
+              {
+                "selectors": [
+                  "#inu2z"
+                ],
+                "style": {
+                  "flex": "1",
+                  "padding": "40px",
+                  "overflow-y": "auto",
+                  "background": "#f5f5f5"
+                }
+              },
+              {
+                "selectors": [
+                  "#iy6o8"
+                ],
+                "style": {
+                  "display": "flex",
+                  "height": "100vh",
+                  "font-family": "Arial, sans-serif"
+                }
+              },
+              {
+                "selectors": [
+                  "#i0ohj"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "font-size": "24px",
+                  "margin-bottom": "30px",
+                  "font-weight": "bold"
+                }
+              },
+              {
+                "selectors": [
+                  "#iez01"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#i371y"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "rgba(255,255,255,0.2)",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#ib2dh"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#iiohk"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "flex": "1"
+                }
+              },
+              {
+                "selectors": [
+                  "#i5uvv"
+                ],
+                "style": {
+                  "margin-top": "auto",
+                  "padding-top": "20px",
+                  "border-top": "1px solid rgba(255,255,255,0.2)",
+                  "font-size": "11px",
+                  "opacity": "0.8",
+                  "text-align": "center"
+                }
+              },
+              {
+                "selectors": [
+                  "#isohg"
+                ],
+                "style": {
+                  "width": "250px",
+                  "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                  "color": "white",
+                  "padding": "20px",
+                  "overflow-y": "auto",
+                  "display": "flex",
+                  "flex-direction": "column"
+                }
+              },
+              {
+                "selectors": [
+                  "#i8lvb"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "color": "#333",
+                  "font-size": "32px",
+                  "margin-bottom": "10px"
+                }
+              },
+              {
+                "selectors": [
+                  "#imtce"
+                ],
+                "style": {
+                  "color": "#666",
+                  "margin-bottom": "30px"
+                }
+              },
+              {
+                "selectors": [
+                  "#table-manager-1"
+                ],
+                "style": {
+                  "width": "100%",
+                  "min-height": "400px"
+                }
+              },
+              {
+                "selectors": [
+                  "#ivu5p"
+                ],
+                "style": {
+                  "display": "inline-flex",
+                  "align-items": "center",
+                  "padding": "6px 14px",
+                  "background": "linear-gradient(90deg, #2563eb 0%, #1e40af 100%)",
+                  "color": "#fff",
+                  "text-decoration": "none",
+                  "border-radius": "4px",
+                  "font-size": "13px",
+                  "font-weight": "600",
+                  "letter-spacing": "0.01em",
+                  "cursor": "pointer",
+                  "border": "none",
+                  "box-shadow": "0 1px 4px rgba(37,99,235,0.10)",
+                  "transition": "background 0.2s"
+                }
+              },
+              {
+                "selectors": [
+                  "#iegnw"
+                ],
+                "style": {
+                  "margin-top": "20px",
+                  "display": "flex",
+                  "gap": "10px",
+                  "flex-wrap": "wrap"
+                }
+              },
+              {
+                "selectors": [
+                  "#iszbi"
+                ],
+                "style": {
+                  "flex": "1",
+                  "padding": "40px",
+                  "overflow-y": "auto",
+                  "background": "#f5f5f5"
+                }
+              },
+              {
+                "selectors": [
+                  "#i1uuh"
+                ],
+                "style": {
+                  "display": "flex",
+                  "height": "100vh",
+                  "font-family": "Arial, sans-serif"
+                }
+              },
+              {
+                "selectors": [
+                  "#iqt0z"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "font-size": "24px",
+                  "margin-bottom": "30px",
+                  "font-weight": "bold"
+                }
+              },
+              {
+                "selectors": [
+                  "#ivn07"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#it2ge"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "transparent",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#i7lpk"
+                ],
+                "style": {
+                  "color": "white",
+                  "text-decoration": "none",
+                  "padding": "10px 15px",
+                  "display": "block",
+                  "background": "rgba(255,255,255,0.2)",
+                  "border-radius": "4px",
+                  "margin-bottom": "5px"
+                }
+              },
+              {
+                "selectors": [
+                  "#iqtlu"
+                ],
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "flex": "1"
+                }
+              },
+              {
+                "selectors": [
+                  "#id9tk"
+                ],
+                "style": {
+                  "margin-top": "auto",
+                  "padding-top": "20px",
+                  "border-top": "1px solid rgba(255,255,255,0.2)",
+                  "font-size": "11px",
+                  "opacity": "0.8",
+                  "text-align": "center"
+                }
+              },
+              {
+                "selectors": [
+                  "#iz8ho"
+                ],
+                "style": {
+                  "width": "250px",
+                  "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)",
+                  "color": "white",
+                  "padding": "20px",
+                  "overflow-y": "auto",
+                  "display": "flex",
+                  "flex-direction": "column"
+                }
+              },
+              {
+                "selectors": [
+                  "#id4fz"
+                ],
+                "style": {
+                  "margin-top": "0",
+                  "color": "#333",
+                  "font-size": "32px",
+                  "margin-bottom": "10px"
+                }
+              },
+              {
+                "selectors": [
+                  "#i4wca"
+                ],
+                "style": {
+                  "color": "#666",
+                  "margin-bottom": "30px"
+                }
+              },
+              {
+                "selectors": [
+                  "#table-timeoffrequest-2"
+                ],
+                "style": {
+                  "width": "100%",
+                  "min-height": "400px"
+                }
+              },
+              {
+                "selectors": [
+                  "#iiz7j"
+                ],
+                "style": {
+                  "flex": "1",
+                  "padding": "40px",
+                  "overflow-y": "auto",
+                  "background": "#f5f5f5"
+                }
+              },
+              {
+                "selectors": [
+                  "#iacwl"
+                ],
+                "style": {
+                  "display": "flex",
+                  "height": "100vh",
+                  "font-family": "Arial, sans-serif"
+                }
+              }
+            ],
+            "assets": [],
+            "symbols": [],
+            "version": "0.21.13"
+          },
+          "lastUpdate": "2026-10-21T14:19:38.969Z"
+        }
+      ]
+    },
+    "settings": {
+      "defaultDiagramType": "ClassDiagram",
+      "autoSave": true,
+      "collaborationEnabled": false,
+      "perspectives": {
+        "ClassDiagram": true,
+        "ObjectDiagram": true,
+        "StateMachineDiagram": true,
+        "AgentDiagram": true,
+        "UserDiagram": true,
+        "GUINoCodeDiagram": true,
+        "QuantumCircuitDiagram": true,
+        "NNDiagram": true,
+        "BPMN": true,
+        "ComponentDiagram": true,
+        "DeploymentDiagram": true
+      }
+    }
+  },
+  "exportedAt": "2026-10-21T15:05:37.577Z",
+  "version": "2.0.0",
+  "editorVersion": "1.0.0"
+}
